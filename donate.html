@@ -12,30 +12,30 @@
 <body>
     <header>
         <a href="/" class="logo">
-          <img src="assets/img/logo.png" alt="Logo" width="50" height="50">ResQFood
+            <img src="assets/img/logo.png" alt="Logo" width="50" height="50">ResQFood
         </a>
-      
+
         <div id="menu" class="fas fa-bars"></div>
-      
+
         <nav class="navbar">
-          <ul>
-            <li><a class="active" href="#home">Home</a></li>
-            <li><a href="index.html">About</a></li>
-            <li><a href="donate.html">Donate</a></li>
-            <li><a href="receive.html">Recieve</a></li>
-            <li><a href="#work">Food Map</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-      <br>
-          <!-- Add login and register buttons -->
-          <div class="auth-buttons">
-            <a href="login.html" class="login-button">Login</a>
-          </div>
+            <ul>
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="index.html">About</a></li>
+                <li><a href="donate.html">Donate</a></li>
+                <li><a href="receive.html">Recieve</a></li>
+                <li><a href="#work">Food Map</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <br>
+            <!-- Add login and register buttons -->
+            <div class="auth-buttons">
+                <a href="login.html" class="login-button">Login</a>
+            </div>
         </nav>
-      </header>
+    </header>
 
 
-      
+
     <div class="container">
         <div class="header">
             <h1>Donate Food Items</h1>
@@ -55,12 +55,13 @@
                 <label for="foodItem">Food Item</label>
                 <input type="text" id="foodItem" name="foodItem" required>
             </div> -->
-        
+
             <div class="input-group">
                 <label for="phoneNumber">Phone Number</label>
-                <input type="tel" id="phoneNumber" name="phoneNumber" pattern="[0-9]{10}" placeholder="e.g., 1234567890" required>
+                <input type="tel" id="phoneNumber" name="phoneNumber" pattern="[0-9]{10}" placeholder="e.g., 1234567890"
+                    required>
             </div>
-        
+
             <div class="input-group">
                 <label for="description">Description</label>
                 <textarea id="description" name="description" rows="4"></textarea>
@@ -68,22 +69,23 @@
             <!-- <div class="alert" style="display: none;"></div> -->
 
             <!-- ... -->
-<div class="inputBox">
-    <button type="submit">Submit</button>
-</div>
-<div class="alert" style="display: none;"></div>
-<!-- ... -->
+            <div class="inputBox">
+                <button type="submit">Submit</button>
+            </div>
+            <div class="alert" style="display: none;"></div>
+            <!-- ... -->
 
 
             <!-- <button type="submit" >Donate Now</button> -->
-        
+
             <!-- <div id="thankYouMessage" class="hidden">
                 <p>Thank you for your donation!</p>
             </div> -->
         </form>
-        
+    </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
 
     <script src="assets/js/donate.js"></script>
 </body>
