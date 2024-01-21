@@ -60,11 +60,12 @@ document.getElementById('donationForm').addEventListener("submit",submitForm)
         saveMessages(donorName, foodItem, phoneNumber,description);
       
         document.querySelector(".alert").style.display = "block";
-
+        alert("Thanks for your donation!");
         //   remove the alert
         setTimeout(() => {
           document.querySelector(".alert").style.display = "none";
         }, 3000);
+
         
         //   reset the form
         document.getElementById("donationForm").reset();
