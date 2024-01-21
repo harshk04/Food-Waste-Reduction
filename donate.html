@@ -47,11 +47,14 @@
                 <label for="donorName">Donor Name</label>
                 <input type="text" id="donorName" name="donorName" required>
             </div>
-        
             <div class="input-group">
                 <label for="foodItem">Food Item</label>
-                <input type="text" id="foodItem" name="foodItem" required>
+                <input type="text" id="name" placeholder=".." />
             </div>
+            <!-- <div class="input-group">
+                <label for="foodItem">Food Item</label>
+                <input type="text" id="foodItem" name="foodItem" required>
+            </div> -->
         
             <div class="input-group">
                 <label for="phoneNumber">Phone Number</label>
@@ -62,8 +65,17 @@
                 <label for="description">Description</label>
                 <textarea id="description" name="description" rows="4"></textarea>
             </div>
-        
-            <button type="button" onclick="showThankYouAlert()">Donate Now</button>
+            <!-- <div class="alert" style="display: none;"></div> -->
+
+            <!-- ... -->
+<div class="inputBox">
+    <button type="submit">Submit</button>
+</div>
+<div class="alert" style="display: none;"></div>
+<!-- ... -->
+
+
+            <!-- <button type="submit" >Donate Now</button> -->
         
             <!-- <div id="thankYouMessage" class="hidden">
                 <p>Thank you for your donation!</p>
@@ -71,7 +83,7 @@
         </form>
         
 
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
 
     <script src="assets/js/donate.js"></script>
 </body>
