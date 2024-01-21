@@ -43,7 +43,7 @@ const firebaseConfig = {
 
   firebase.initializeApp(firebaseConfig);
 
-var ResQFoodDB=firebase.database().ref("ResQFood");
+var ResQFoodDB=firebase.database().ref("DonateFood");
 
 document.getElementById('donationForm').addEventListener("submit",submitForm)
 

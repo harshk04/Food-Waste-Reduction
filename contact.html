@@ -64,20 +64,18 @@
                     <ul class="info">
                         <li>
                             <span><img src="assets/img/location.png"></span>
-                            <span>184 Ippokratous Street<br>
-                                Athens, Gr<br>
-                                11472</span>
+                            <span>JIIT, Noida</span>
                             </span>
                         </li><br>
                         <li>
                             <span><img src="assets/img/mail.png"></span>
                             <!-- <span>nassosanagn@gmail.com</span> -->
-                            <span><a href="mailto: nassosanagn@gmail.com">nassosanagn@gmail.com</a></span>
+                            <span><a href="mailto: nassosanagn@gmail.com">kumawatharsh2004@gmail.com</a></span>
                         </li>
                         <br>
                         <li>
                             <span><img src="assets/img/call.png"></span>
-                            <span>702-279-3488</span>
+                            <span>9928967278</span>
                         </li>
 
                     </ul>
@@ -93,30 +91,31 @@
             <div class="contactForm">
                 <h2>Send a Message</h2>
                 <div class="formBox">
-                    <div class="inputBox w50">
-                        <input type="text" name="" required>
-                        <span>First Name</span>
-                    </div>
-                    <div class="inputBox w50">
-                        <input type="text" required>
-                        <span>Last Name</span>
-                    </div>
-                    <div class="inputBox w50">
-                        <input type="email" required>
-                        <span>Email Address</span>
-                    </div>
-                    <div class="inputBox w50">
-                        <input type="text" required>
-                        <span>Mobile Number</span>
-                    </div>
-                    <div class="inputBox w100">
-                        <textarea required></textarea>
-                        <span>Write your message here...</span>
-                    </div>
-                    <div class="inputBox w100">
-                        <input type="submit" value="Send">
-                    </div>
+                  <div class="inputBox w50">
+                    <input type="text" name="firstName" required>
+                    <span>First Name</span>
+                  </div>
+                  <div class="inputBox w50">
+                    <input type="text" name="lastName" required>
+                    <span>Last Name</span>
+                  </div>
+                  <div class="inputBox w50">
+                    <input type="email" name="email" required>
+                    <span>Email Address</span>
+                  </div>
+                  <div class="inputBox w50">
+                    <input type="text" name="mobileNumber" required>
+                    <span>Mobile Number</span>
+                  </div>
+                  <div class="inputBox w100">
+                    <textarea name="message" required></textarea>
+                    <span>Write your message here...</span>
+                  </div>
+                  <div class="inputBox w100">
+                    <input type="submit" value="Send">
+                  </div>
                 </div>
+                
             </div>
 
 
@@ -167,6 +166,10 @@
 
   </section>
   <!-- footer section ends -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+   
+  <script src="assets/js/contact.js"></script>
+
 </body>
 
 </html>
