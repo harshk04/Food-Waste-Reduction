@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/receive.css">
+    <!-- Add the Font Awesome library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Receive Food</title>
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
+</head>
+
+<body>
+
+
+
+    <header>
+        <a href="/" class="logo">
+          <img src="assets/img/logo.png" alt="Logo" width="50" height="50">ResQFood
+        </a>
+      
+        <div id="menu" class="fas fa-bars"></div>
+      
+        <nav class="navbar">
+          <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="index.html">About</a></li>
+            <li><a href="donate.html">Donate</a></li>
+            <li><a href="receive.html">Recieve</a></li>
+            <li><a href="map.html">Food Map</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+      <br>
+          <!-- Add login and register buttons -->
+          <div class="auth-buttons">
+            <a href="login.html" class="login-button">Login</a>
+          </div>
+        </nav>
+      </header>
+      
+
+
+    <div class="receiveForm">
+        <h2>Receive Food</h2>
+        <div class="formBox">
+            <div class="inputBox w50">
+                <input type="text" id="receiverName" required>
+                <span>Receiver's Name</span>
+            </div>
+            <div class="inputBox w100">
+                <textarea id="description" required></textarea>
+                <span>Describe your needs...</span>
+            </div>
+            <div class="inputBox w100">
+                <button class="action-button receive-button" onclick="submitReceiveForm()">
+                    <i class="fas fa-utensils"></i> Receive Food
+                </button>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="assets/js/receive.js"></script>
+</body>
+
+</html>
